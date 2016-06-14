@@ -1,0 +1,89 @@
+.div-heading{
+	height: 70px;
+}
+
+.div-heading-bottom{
+	margin-top: 29px;
+}
+
+.div-heading-bottom-img{
+	margin-top: 15px;
+}
+
+.vr{
+  display:inline;
+  height:100%;
+  width:1px;
+  border:1px inset;
+  margin:5px
+}
+
+.first{
+	margin-top: 0px;
+}
+
+.last {
+	margin-bottom: 0px;
+}
+.post-title-line {
+  background-color: #403a41;
+  background-image: -webkit-gradient(linear, left top, right top, from(#cc9900), to(rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, #cc9900, rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(left, #cc9900, rgba(0, 0, 0, 0));
+  background-image: -ms-linear-gradient(left, #cc9900, rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(left, #cc9900, rgba(0, 0, 0, 0));
+  width: 100%;
+  height: 4px;
+  position: relative;
+  background-color: transparent; /* add this line after the mixin call */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.post-ungc-dashboard-line {
+  background-color: #403a41;
+  background-image: -webkit-gradient(linear, left top, right top, from(#cc9900), to(rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, #cc9900, rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(left, #cc9900, rgba(0, 0, 0, 0));
+  background-image: -ms-linear-gradient(left, #cc9900, rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(left, #cc9900, rgba(0, 0, 0, 0));
+  width: 100%;
+  height: 2px;
+  position: relative;
+  background-color: transparent; /* add this line after the mixin call */
+}
+.verticalLine {
+    border-left: thick solid #ff0000;
+}
+.rotate {
+
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+@font-face {
+    font-family: 'Segoe';
+    src: url('../fonts/font_new.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+  font-family: 'Segoe', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+}
+
+.img-header{
+  height: 85%;
+}
