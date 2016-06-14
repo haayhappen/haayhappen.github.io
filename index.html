@@ -1,0 +1,267 @@
+<html>
+
+<head>
+	<title>Admin panel</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!--  <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">  -->
+	<!--     <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>    -->
+	<script src="js/chartist.min.js"></script>
+	<link rel="stylesheet" href="css/chartist.css">
+	
+
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2 div-heading">
+				<h1>Tropikal <small>(TPKL)</small></h1>
+			</div>
+			<div class="col-md-3 div-heading">
+				<div class="row">
+					<h5 class="div-heading-bottom">United States<br>
+					Consumer Non-durables
+					</h5>
+				</div>
+			</div>
+			<div class="col-md-4 div-heading">
+				<div class="row">
+					<h1 style="display: inline-block;" class="div-heading-bottom">
+						65<small>%</small>
+						<!--<span class="vr"></span><!-- Das ganze hier mit dem Text nach 65% ist noch nicht korrekt. Hab dazu auf die schnelle keine Lösung gefunden. -->
+					</h1>
+					<span style=" display: inline-block;">
+							<div  >
+								<div class="col-xs-4">Last month:</div>
+								<div class="col-xs-8 col-lg-5">66%</div>
+								
+								<div class="col-xs-4">Last year:</div>
+								<div class="col-xs-8 col-lg-5">60%</div>
+							</div>	
+					</span>
+				</div>
+			</div>
+			<div class="col-md-3 div-heading">
+				<div class="row">
+					<div class="col-md-6 text-right div-heading-bottom-img">
+						<img src="img/ungc-logo.png" class="img-header">
+					</div>
+					<div class="col-md-6 text-right div-heading-bottom-img">
+						<img src="img/logo-black-mobile.png" class="img-header">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="post-title-line"></div>
+			</div>
+		</div>
+
+		<!-- Anfang Statistiken -->
+		<div class="row">
+
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-12 ">
+						<h3 class="first ">UNGC Barometer</h3>
+						<hr class="first post-ungc-dashboard-line">
+
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h3>Total Score</h3>
+							<div  class="ct-chart ct-golden-section " id="totalscorechart1"></div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-6">
+							<div class="ct-chart ct-golden-section" id="totalscorechart2"></div>
+						</div>
+						<div class="col-md-6">
+							<div class="ct-chart ct-golden-section" id="totalscorechart3"></div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-6">
+							<div class="ct-chart ct-golden-section" id="totalscorechart4"></div>
+						</div>
+						<div class="col-md-6">
+							<div class="ct-chart ct-golden-section" id="totalscorechart5"></div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="first">Dashboard</h3>
+						<hr class="first post-ungc-dashboard-line"> Hier würde ich eine "Table" machen:
+						<div class="table-responsive">
+							<table class="tabel table-bordered text-center">
+								<!-- table-bordered kannst du raus nehmne. Dient nur zur besseren übersicht -->
+								<tr>
+									<th>&nbsp;</th>
+									<th class="text-center">
+										<div class="col-md-12"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span>Status Quo</div>
+										<div class="col-md-6">SCORE</div>
+										<div class="col-md-6">Momentum</div>
+									</th>
+									<th class="text-center">
+										<div class="col-md-12"><span class="glyphicon glyphicon-group" aria-hidden="true"></span>Sector</div>
+										<div class="col-md-6">ranking</div>
+										<div class="col-md-6">Percentile</div>
+									</th>
+									<th class="text-center">
+										<div class="col-md-12"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>All Companies</div>
+										<div class="col-md-6">Ranking</div>
+										<div class="col-md-6">percentile</div>
+									</th>
+								</tr>
+								<tr>
+									<td>Total Score</td>
+									<td>65% <span class="vr"></span>frndsj</td>
+									<td>82/263</td>
+									<td>1,397/5,173</td>
+								</tr>
+								<tr>
+									<td>Total Score</td>
+									<td>65% <span class="vr"></span>frndsj</td>
+									<td>82/263</td>
+									<td>1,397/5,173</td>
+								</tr>
+							</table>
+						</div>
+						text-center damit der text zentriert wird. Innerhalb des th (zb. bei "Status Quo") kannst du mit dem Gris arbeiten. Die icons
+						musst du noch einfügen.
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="first">Trending: the past month</h3>
+						<hr class="first post-ungc-dashboard-line">
+						<div class="row">
+							<div class="col-md-3 text-center">Human Rights</div>
+							<div class="col-md-3 text-center">labour Rights</div>
+							<div class="col-md-3 text-center">Environment</div>
+							<div class="col-md-3 text-center">Anti-Corruption</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="col-md-3 ">
+									<h5 class="col-md-3 rotate">News</h5> No recent News.
+								</div>
+								<div class="col-md-3">
+									DUMMY
+								</div>
+								<div class="col-md-3">
+									DUMMY
+								</div>
+								<div class="col-md-3">
+									DUMMY
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="col-md-3 ">
+									<h5 class="col-md-3 rotate ">Topics</h5>
+									<!-- Muss noch vertical gemacht werden -->
+
+									No recent Topics.
+								</div>
+								<div class="col-md-3">
+									DUMMY
+								</div>
+								<div class="col-md-3">
+									DUMMY
+								</div>
+								<div class="col-md-3">
+									DUMMY
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Ende Statistiken -->
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script>
+		$( document ).ready(function() {
+	var chart_counter = 1;
+	$(".ct-chart").each(function(){
+		var chart1 = new Chartist.Line('#totalscorechart'+ chart_counter, {
+			labels: ['2010', '2011', '2012', '2013', '2014', '2015', '2016'],
+			series: [{
+				name: 'series-1',
+				data: [45, 46, 48, 50, 52, 55, 58]
+			}, {
+				name: 'series-2',
+				data: [25, 40, 43, 48, 50, 51, 52]
+			}]
+			}, {
+				series: {
+			'series-1': {
+				fullWidth: true,
+				low: 0,
+				high: 100,
+				//showArea: true,
+				showPoint: false,
+				// Disable line smoothing
+				lineSmooth: false,
+				},
+			'series-2': {
+				
+				fullWidth: true,
+				low: 0,
+				high: 100,
+				//showArea: true,
+				showPoint: false,
+				// Disable line smoothing
+				lineSmooth: false,
+				},
+				
+    		},
+			/*
+			HIER IST DIE ZU IMPLEMETIERENDE FUNKTION
+			
+			chart.on('draw', function(data) {
+  if(data.type === 'grid' && data.index !== 0) {
+    data.element.remove();
+  }
+});
+
+DAS IST DER LINK:   https://github.com/gionkunz/chartist-js/issues/144
+			
+			*/
+	
+			});//End Chartist specs
+		chart_counter++;
+		
+		
+});//End function
+
+
+	});//End OnReady
+	
+	</script>
+
+</body>
+
+</html>
