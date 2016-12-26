@@ -321,3 +321,14 @@ svg {
     }
   }
 }
+
+a:link    { 
+  color: white ;
+  text-decoration: none;
+}  /* unvisited links */
+a:visited { color: white ;
+  text-decoration: none;}  /* visited links   */
+a:hover   { color: white ;
+  text-decoration: none;}  /* user hovers     */
+a:active  { color: white ;
+  text-decoration: none;} 

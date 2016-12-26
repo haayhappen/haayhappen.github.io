@@ -339,3 +339,30 @@ svg {
 .slide__text-link:hover:before {
   transform: rotateX(0);
 }
+
+/* line 325, ../sass/style.scss */
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* unvisited links */
+/* line 329, ../sass/style.scss */
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited links   */
+/* line 331, ../sass/style.scss */
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* user hovers     */
+/* line 333, ../sass/style.scss */
+a:active {
+  color: white;
+  text-decoration: none;
+}
