@@ -1,54 +1,89 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-<title>Johanna S.</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Johanna S.</title>
 
-<!--CSS-->
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/bootstrap-light.css">
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-<!--/CSS-->
-
-<!--JS-->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="js/jquery.plugin.js"></script>
-<script src="js/jquery.countdown.js"></script>
-<script>
-$(function () {
-	$('#defaultCountdown').countdown({until: new Date(2016, 12-1, 18)}); 
-	//Replace above date with your own, to find out more visit http://keith-wood.name/countdown.html
-});
-</script>
-<!--/JS-->
+	<!--CSS-->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap-light.css">
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	<!--/CSS-->
 
 </head>
 
 <body>
 
-<!--DARK OVERLAY-->
-<div class="overlay"></div>
-<!--/DARK OVERLAY-->
-
-<!--WRAP-->
-<div id="wrap" 
-	<!--CONTAINER-->
-	<div class="container">
-		<img src="images/ellophant.png" alt="Ellophant" class="image-align" height="300px" width="300px"/>
-	<h1>ellophantdesign.</h1>
-	<p>Coming soon!</p>
-		<div id="defaultCountdown"></div>
-		
-		
+	<div class="slider-container">
+		<div class="slider-control left inactive"></div>
+		<div class="slider-control right"></div>
+		<ul class="slider-pagi"></ul>
+		<div class="slider">
+			<div class="slide slide-0 active">
+				<div class="slide__bg"></div>
+				<div class="slide__content">
+					<svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+						<path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+					</svg>
+					<div class="slide__text">
+						<h2 class="slide__text-heading">Project name 1</h2>
+						<p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere,
+							doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus
+							illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+						<a class="slide__text-link">Project link</a>
+					</div>
+				</div>
+			</div>
+			<div class="slide slide-1 ">
+				<div class="slide__bg"></div>
+				<div class="slide__content">
+					<svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+						<path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+					</svg>
+					<div class="slide__text">
+						<h2 class="slide__text-heading">Project name 2</h2>
+						<p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere,
+							doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus
+							illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+						<a class="slide__text-link">Project link</a>
+					</div>
+				</div>
+			</div>
+			<div class="slide slide-2">
+				<div class="slide__bg"></div>
+				<div class="slide__content">
+					<svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+						<path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+					</svg>
+					<div class="slide__text">
+						<h2 class="slide__text-heading">Project name 3</h2>
+						<p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere,
+							doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus
+							illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+						<a class="slide__text-link">Project link</a>
+					</div>
+				</div>
+			</div>
+			<div class="slide slide-3">
+				<div class="slide__bg"></div>
+				<div class="slide__content">
+					<svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+						<path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+					</svg>
+					<div class="slide__text">
+						<h2 class="slide__text-heading">Project name 4</h2>
+						<p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere,
+							doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus
+							illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+						<a class="slide__text-link">Project link</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-	<!--/CONTAINER-->
-	
-</div>
-<!--/WRAP-->
-<div id="footer">
 
-       &copy; All rights reserved
 
-</div>
 </body>
+
 </html>
