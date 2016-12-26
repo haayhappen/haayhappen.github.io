@@ -192,7 +192,7 @@ svg {
 /* line 184, ../sass/style.scss */
 .slide:nth-child(3) .slide__bg {
   left: -100%;
-  background-image: url("/images/johanna3.jpg");
+  background-image: url("../images/johanna3.jpg");
 }
 /* line 189, ../sass/style.scss */
 .slide:nth-child(3) .slide__overlay-path {
@@ -211,7 +211,7 @@ svg {
 /* line 202, ../sass/style.scss */
 .slide:nth-child(4) .slide__bg {
   left: -150%;
-  background-image: url("/images/johanna4.jpg");
+  background-image: url("../images/johanna4.jpg");
 }
 /* line 207, ../sass/style.scss */
 .slide:nth-child(4) .slide__overlay-path {
