@@ -1,0 +1,112 @@
+body {
+  background-color: #ccc;
+  margin: 0px;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.bm {
+  background-color: transparent;
+  width: 100px;
+  height: 120px;
+  display: inline-block;
+  vertical-align:top;
+  /*float: left;*/
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  margin-left: -35px;
+}
+
+.clearer {
+  clear: both;
+  /*width: 0;*/
+  margin-left: 0;
+  width: 100%;
+  height: 0;
+  /*margin-left: -50px;*/
+}
+
+.bm.italic {
+  transform: translate3d(0, 0, 0) skewX(-10deg);
+}
+
+.bm.underline {
+  border-bottom: 5px solid #333333;
+}
+
+.hoverer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, .5, 0, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bm.exit {
+  opacity: 0;
+}
+
+.bm.blinker {
+  background-color: #333333;
+  width: 4px;
+  margin-left: 0px;
+  animation: blink-animation 1.5s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1.5s steps(5, start) infinite;
+}
+
+.bm.blinker.hidden {
+  display: none;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.title {
+  text-align: center;
+  background-color: #fff;
+  color: #333;
+  font-family: "Franchise", sans-serif;
+  font-size: 90px;
+  margin-bottom: 10px;
+  padding: 30px 20px;
+}
+
+.elementsContainer {
+  text-align: left;
+  height: 100%;
+  padding: 0 20px;
+}
+
+@font-face {
+  font-family: "Franchise";
+  src: url('https://labs.nearpod.com/bodymovin/demo/franchise/fonts/Franchise-Bold.ttf') format("truetype");
+}
+
+@media only screen and (max-width: 1100px)  {
+  .title {
+    
+    font-size: 60px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 800px)  {
+  .title {
+    
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+  }
+}
